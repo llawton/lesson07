@@ -1,0 +1,181 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+header {
+
+    text-align: center;
+    padding: 1em;
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgb(231, 231, 231);
+    position: center;
+    
+    
+}
+
+h1
+{
+    color: rgb(63, 64, 73);
+    font-size: 80px;
+}
+
+h2
+{
+    font-size: 45px;
+}
+
+h3
+{
+    background-color: rgb(249,219,212);
+    color: rgb(81, 99, 99);
+    
+}
+h1, h2 {
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    margin: 0;
+  }
+
+
+body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        background-color: rgb(231, 231, 231);
+      }
+
+  img {
+    
+    width: 400px;
+    padding: 1em;
+    
+  }
+
+.content-wrap {
+        max-width: 800px;
+        width: 85%;
+        margin: 0 auto;
+        padding: 60px 0;
+      }
+
+section {
+    
+    text-align: center;
+    padding: 5px;
+    background: rgb(229, 201, 191)
+
+}
+
+footer
+{
+    background-color: rgb(81, 99, 99);
+    color: white;
+}
+
+a
+{
+    color: rgb(238, 215, 84);
+}
+
+a:hover
+
+{   
+
+color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.column {
+  flex: 20%;
+  padding: 1em;
+}
+
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+li {
+
+    list-style:none;
+}
+
+nav {
+
+  background-color: rgb(225, 223, 211);
+}
+
+ul {                                   
+
+     text-align: center;                    
+     list-style: none;
+     color: rgb(63, 64, 73);
+               
+    
+    }
+    
+    ul li {                                
+    
+    font: bold 13px/18px sans-serif;
+    display: inline-block;            
+    position: relative;               
+    padding: 10px 20px;           
+                 
+    
+    }
+    
+    ul li:hover {                        
+    
+    background:  beige;             
+    color: #fff;                       
+    
+    }
+    
+    ul li ul {                           
+    
+    padding: 0;                      
+    position: absolute;             
+    top: 48px;                        
+    left: -10000px;               
+    width: 150px;                  
+    
+     }
+    
+     ul li ul li {                        
+    
+    background:whitesmoke;           
+    display: block;                
+    color:rgb(63, 64, 73);                     
+    
+    }
+    
+    ul li ul li:hover 
+    { background:rgb(63, 64, 73); } 
+    
+    ul li:hover ul {                 
+    
+    display: block;              
+    left :0px;                        
+    }
+
+    .contact-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+
+   
